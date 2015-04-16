@@ -2,7 +2,7 @@ Source: rippled
 Section: net
 Priority: optional
 Maintainer: Torrie Fischer <torrie@ripple.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0) libboost1.57-all-dev protobuf-compiler libprotobuf-dev libssl-dev pkg-config scons
 Standards-Version: 3.9.4
 Homepage: https://ripple.com/
 Vcs-Git: git://github.com/ripple/rippled.git
