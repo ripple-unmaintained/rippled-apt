@@ -1,0 +1,18 @@
+Index: rippled/Makefile
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ rippled/Makefile	2015-04-16 16:30:07.000000000 +0000
+@@ -0,0 +1,13 @@
++DESTDIR := /usr/local
++
++all: build/gcc.release/rippled
++
++build/gcc.release/rippled:
++	scons gcc.release
++
++install: build/gcc.release/rippled
++	install -D doc/rippled-example.cfg $(DESTDIR)/etc/rippled/rippled.cfg
++	install -D build/gcc.release/rippled $(DESTDIR)/usr/bin/rippled
++
++clean:
++	rm -rf build
