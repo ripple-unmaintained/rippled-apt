@@ -10,5 +10,5 @@ cd `dirname $0`
 git clone git://github.com/ripple/rippled
 cd rippled
 git archive develop --prefix=rippled-0.28/ | xz > /../rippled_0.28.orig.tar.xz
-cp -Rvp ../debian .
+cp -Rvp ../debian ../Makefile .
 dh binary
