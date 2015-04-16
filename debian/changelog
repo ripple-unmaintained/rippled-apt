@@ -1,5 +1,5 @@
 rippled (0.28-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release.
 
- -- root <root@unknown>  Thu, 16 Apr 2015 00:28:06 +0000
+ -- Torrie Fischer <torrie@ripple.com>  Thu, 16 Apr 2015 00:28:06 +0000
